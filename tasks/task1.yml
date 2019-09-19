@@ -1,0 +1,12 @@
+---
+
+- name : directory
+  file :
+     path : "{{ item.path }}"
+     state: "{{ item.state }}"
+  loop:
+     - { path: '/home/rgukt/4' , state: 'directory'}
+  tags:
+   - bb
+   
+     

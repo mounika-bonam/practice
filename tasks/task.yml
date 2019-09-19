@@ -1,0 +1,8 @@
+---
+
+- name : version
+  file :
+     path : "{{ path }}"
+     state: "{{ state }}"
+     mode : u+rwx,g+rw,o+rw
+ 
