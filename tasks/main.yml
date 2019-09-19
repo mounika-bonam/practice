@@ -1,5 +1,5 @@
 ---
-- hosts: 52.172.209.5
+- hosts: localhost
   vars_files:
       - etc/ansible/roles/practice/vars/main.yml
   tasks:
