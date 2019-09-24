@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  vars_file:
+  
       - etc/ansible/roles/practice/vars/main.yml
   tasks:
    - include: /etc/ansible/roles/practice/tasks/task.yml
