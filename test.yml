@@ -1,0 +1,5 @@
+---
+- name: This command will change the working directory to somedir/.
+   shell:
+      cmd: ls -l
+        
